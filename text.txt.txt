@@ -1,1 +1,59 @@
-ádsdasdasd
+create database QLBH;
+go 
+use QLBH
+go 
+create table Users
+(
+id int identity primary key,
+name nvarchar(225),
+phone varchar(50),
+email varchar(225),
+password varchar(225),
+role tinyInt default(0),
+)
+go 
+create table Category
+(
+id int identity primary key,
+Name nvarchar(225),
+created_at TIMESTAMP
+)
+
+go
+create table Product
+(
+id int identity primary key,
+name nvarchar(225),
+cat_id int FOREIGN KEY(cat_id) REFERENCES Category(id),
+code varchar(50),
+price float,
+image varchar(225)
+)
+go
+create table Attribute
+(
+id int identity primary key,
+value nvarchar(225),
+type tinyInt,
+product_id int FOREIGN KEY(product_id) REFERENCES Product(id),
+
+)
+go
+create table Bill
+(
+id int identity primary key,
+total float ,
+create_at TIMESTAMP
+
+)
+go 
+create table BillDetail
+(
+id int identity primary key,
+bill_id int FOREIGN KEY(bill_id) REFERENCES bill(id),
+product_id int FOREIGN KEY(product_id) REFERENCES Product(id),
+created_at TIMESTAMP
+)
+
+
+
