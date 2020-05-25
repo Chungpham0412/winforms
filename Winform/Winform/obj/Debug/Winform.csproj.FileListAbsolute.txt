@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\bin\Debug\Winform.exe.config
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\bin\Debug\Winform.exe
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\bin\Debug\Winform.pdb
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Form1.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.exe
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.pdb
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Account.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Category.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Danh_sach_danh_muc.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Danh_sach_sp.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.FormLogin.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Product.resources
+C:\Users\ADMIN\Desktop\winforms\Winform\Winform\obj\Debug\Winform.Login.resources
