@@ -11,12 +11,9 @@ namespace Winform
 {
     public partial class Category : Form
     {
-        ConnectDB con;
         public Category()
         {
-            InitializeComponent();
-            ConnectDB connect = new ConnectDB();
-            con = connect->GetConnection();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -32,6 +29,11 @@ namespace Winform
         private void button1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Category_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -21,5 +21,21 @@ namespace Winform
         {
             this.Close();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = txtEmail.Text;
+            string pass = txtPassword.Text;
+            if(user == "admin" && pass == "123456")
+            {
+                this.Hide();
+                Main m = new Main();
+                m.Show();
+            }
+            else
+            {
+                MessageBox.Show("Đăng nhập không thành công","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+        }
     }
 }

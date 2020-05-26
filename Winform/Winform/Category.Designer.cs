@@ -146,6 +146,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Category";
             this.Text = "Category";
+            this.Load += new System.EventHandler(this.Category_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
